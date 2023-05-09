@@ -132,7 +132,7 @@ function App() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        // unofficial location of parameters
+        //Unofficial location of credentials
       }),
     });
     const data = await res.json();
